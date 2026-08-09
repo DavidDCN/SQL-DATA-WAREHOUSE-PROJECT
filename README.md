@@ -7,14 +7,6 @@ This project demonstrates a comprehensive, end-to-end data warehousing and analy
 ---
 
 ## 📂 Repository Structure
-
-```text
-sql-data-warehouse-project/
-├── datasets/     # Raw source files (ERP and CRM CSV datasets)
-├── docs/         # Data architecture diagrams, dictionary, and schema documentation
-├── scripts/      # ETL, data cleaning, database creation, and analytical query scripts
-├── test/         # Validation queries and data quality test scripts
-└── README.md     # Project documentation
 🎯 Project Overview & Requirements
 1. Data Engineering: Building the Data Warehouse
 Objective: Design and build a modern, scalable data warehouse using SQL Server to centralize disparate sales records for robust reporting.
@@ -53,3 +45,11 @@ Clone the repository:
 Bash
 git clone [https://github.com/DavidDCN/sql-data-warehouse-project.git](https://github.com/DavidDCN/sql-data-warehouse-project.git)
 Execute Database Scripts: Navigate to the scripts/ directory and run the setup scripts sequentially in your SQL Server Management Studio (SSMS) environment to provision the database schema and load sample data.
+
+```text
+sql-data-warehouse-project/
+├── datasets/     # Raw source files (ERP and CRM CSV datasets)
+├── docs/         # Data architecture diagrams, dictionary, and schema documentation
+├── scripts/      # ETL, data cleaning, database creation, and analytical query scripts
+├── test/         # Validation queries and data quality test scripts
+└── README.md     # Project documentation
